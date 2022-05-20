@@ -1,0 +1,3 @@
+# bibliotecas realmente necessárias para o sistema ir ao ar
+fastapi==0.77.1
+uvicorn==0.17.6

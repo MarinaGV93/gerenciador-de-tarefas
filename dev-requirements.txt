@@ -1,0 +1,6 @@
+# as depêndencias que somente são úteis enquanto estiver desenvolvendo o sistema.
+
+# Pega tudo do outro arquivo
+-r requirements.txt
+pytest==7.1.2
+httpie==3.2.1
