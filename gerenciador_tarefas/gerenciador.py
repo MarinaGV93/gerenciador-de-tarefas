@@ -2,6 +2,7 @@
 
 # Criando a aplicação
 from curses.ascii import TAB
+
 from fastapi import FastAPI
 
 # Definir Tarefas
