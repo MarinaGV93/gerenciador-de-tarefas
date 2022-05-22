@@ -23,7 +23,7 @@ def test_quando_listar_tarefas_formato_de_retorno_deve_ser_json():
 def test_quando_listar_tarefas_retorno_deve_ser_uma_lista():
     cliente = TestClient(app)
     resposta = cliente.get("/tarefas")
-    # Instance = verifica se aquilo é uma lista. Pega a resposta.json e tranforma em formato lista
+    # isinstance = verifica se aquilo é uma lista. Pega a resposta.json e tranforma em formato lista
     assert isinstance(resposta.json(), list)
 
     def test_quando_listar_tarefas_a_tarefa_retornada_deve_possuir_id():
