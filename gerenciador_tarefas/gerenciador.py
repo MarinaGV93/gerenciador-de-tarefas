@@ -29,7 +29,8 @@ class Tarefa(TarefaEntrada):
 
 
 # Uma função para listar as tarefas
-# Toda vez que chamar o verbo get em tarefas, irá executar esse codigo, por causa do @
+# Toda vez que chamar o verbo get em tarefas, 
+# sirá executar esse codigo, por causa do @
 @app.get("/tarefas")
 def listar():
     # [] = uma lista de tarefas que esta vazia
